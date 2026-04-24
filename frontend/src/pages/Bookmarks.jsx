@@ -20,7 +20,7 @@ const Bookmarks = () => {
       }
 
       try {
-        const { data } = await axios.get('http://localhost:5000/api/bookmarks', {
+        const { data } = await axios.get('https://technews-cw7v.onrender.com/api/bookmarks', {
           headers: { Authorization: `Bearer ${token}` }
         });
         setSavedNews(data);
