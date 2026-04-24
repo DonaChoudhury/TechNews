@@ -19,7 +19,7 @@ app.use(express.json());
 const authRoutes = require('./routes/authRoutes');
 const newsRoutes = require('./routes/newsRoutes');
 const aiRoutes = require('./routes/aiRoutes');
-const bookmarkRoutes = require('./routes/bookmarkRoutes');
+const bookmarkRoutes = require('./routes/bookmarkroutes');
 
 // Use Routes
 app.use('/api/auth', authRoutes);
